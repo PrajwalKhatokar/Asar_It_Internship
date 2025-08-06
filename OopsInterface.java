@@ -94,3 +94,14 @@ public class OopsInterface {
             bike.stop();
     }
 }
+
+//OUTPUT
+
+// PS C:\AsarIt_Internship> javac OopsInterface.java
+// PS C:\AsarIt_Internship> java OopsInterface
+// === Car Details ===
+// Brand: Toyota, Speed: 120km/h
+// Car started with key.
+// Car uses petrol.
+// Car stopped.
+
