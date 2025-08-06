@@ -104,3 +104,11 @@ public class OopsInterface {
 // Car uses petrol.
 // Car stopped.
 
+
+// === Bike Details ===
+// Brand: Royal Enfield, Speed: 80km/h
+// Bike started with self-start.
+// Bike uses diesel.
+// Bike stopped.
+
+
