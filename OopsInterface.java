@@ -49,7 +49,7 @@ class Car extends BaseVehicle implements Vehicle {
     }
 }
 
-// Another child class
+
 class Bike extends BaseVehicle implements Vehicle {
     @Override
     public void start() {
@@ -67,14 +67,13 @@ class Bike extends BaseVehicle implements Vehicle {
     }
 }
 public class OopsInterface {
-    // Main class to run the program
+   
         public static void main(String[] args) {
             // Polymorphism: using interface reference
             Vehicle car = new Car(); // Upcasting
             Vehicle bike = new Bike();
 
-            // Setting data using encapsulation
-            ((Car) car).setBrand("Toyota");
+            ((Car) car).setBrand("Toyota");  //downcasting
             ((Car) car).setSpeed(120);
 
             ((Bike) bike).setBrand("Royal Enfield");
