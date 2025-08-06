@@ -87,7 +87,7 @@ public class OopsInterface {
             car.fuelType();
             car.stop();
 
-            System.out.println("\n=== Bike Details ===");
+            System.out.println("\n== Bike Details ===");
             ((Bike) bike).displayInfo();
             bike.start();
             bike.fuelType();
