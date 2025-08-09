@@ -27,3 +27,6 @@ public class LamdaInterface {
     }
 }
 
+// Output
+// Prajwal earns 60000.0
+// Vikram earns 75000.0
